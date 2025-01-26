@@ -11,7 +11,7 @@ from typing import List
 client = AzureOpenAI(
             api_key=api_key,  
             azure_endpoint=azure_endpoint,
-            api_version="2024-02-15-preview" 
+            api_version="2023-04-17-preview" 
         )
 
 class AnywhereLLM:
