@@ -5,8 +5,8 @@ import time
 import os  # For opening applications
 from openai import AzureOpenAI
 # from secrets import api_key, azure_endpoint
-api_key='c442268217b54c6cafb83b2c3114f094'
-azure_endpoint="https://catg-openai.openai.azure.com/"
+api_key='AZURE_API_KEY'
+azure_endpoint="AZURE_ENDPOINTS"
 from pydantic import BaseModel, Field
 from typing import List
 import pyperclip
